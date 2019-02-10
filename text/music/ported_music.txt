@@ -1,0 +1,19 @@
+6
+credits.wav
+Super Mario Galaxy: Starbit Festival
+Credits
+titlescr.wav
+Super Mario Galaxy: Family
+Title Theme
+make_sizeselect.wav
+Super Mario Bros. 2: Player Select
+Make Picross - Size Select
+makeui_bgm.wav
+Mario Paint: Main Theme
+Make Picross - Design Interface
+stage_select.wav
+The Legend of Zelda Orcarina of Time: Great Fairy Fountain (excerpt)
+Play Picross - Select Puzzle
+music_menu.wav
+Newer Super Mario Bros. Wii: Yoshi's House
+Music Select

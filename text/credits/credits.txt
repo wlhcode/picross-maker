@@ -1,0 +1,54 @@
+==Director & Producer==
+wlhcode - project owner
+
+
+==Game Engine Programming==
+wlhcode - lead programming
+
+
+==OS-side Programming==
+wlhcode - lead programming
+
+Software_Designer - code snippets (set window width and height)
+Benjamin Lindley - code snippets (move cursor)
+Duthomhas - code snippets (fetch cursor position)
+
+Microsoft Developer Network & Community - information (Windows header files & functions)
+Windows Seven Forums Community - information (Windows header files & functions)
+
+
+==General Programming==
+wlhcode - lead programming
+
+cplusplus.com Community - information (strings, file i/o, etc.)
+Stack Overflow Community - information (mouse input, window size, etc.)
+cppreference.com - information (variadic functions, header files, etc.)
+
+
+==UI Design==
+wlhcode - programming and designing
+
+
+==Art==
+patorjk - automated ASCII art (logos & headers)
+wlhcode - menu pixel art
+
+
+==Level Design==
+wlhcode - built-in puzzles
+NINTENDO - ideas and inspirations (Super Mario series, Legend of Zelda series, etc.)
+
+
+==Music==
+NINTENDO - music composer (most games)
+Tempus, Newer Team - music composer (Newer Super Mario Bros. Wii)
+NinSheetMusic Community - music arrangement
+
+GASHISOFT - GXSCC software (MIDI files to 8-bit WAV)
+
+
+==Misc.==
+Dev-C++ Developers - integrated development environment
+
+
+... and YOU for playing this game!

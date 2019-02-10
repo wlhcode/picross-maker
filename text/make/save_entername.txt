@@ -1,0 +1,8 @@
++-------------------------------------------+
+| Please enter a name for this masterpiece. |
+| Type here then click the submit button.   |
+|                                           |
+| Name:                                     |
+|                                           |
+|                                   SUBMIT  |
++-------------------------------------------+
