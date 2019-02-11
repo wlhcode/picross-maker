@@ -93,7 +93,7 @@ void create_interface(int size){
 			txt.close();
 			tmp.clear();
 			
-			int confirm=button_setting(2,103,108,y-3,y-1,110,115,y-3,y-1,0);
+			int confirm=button_setting(2541,103,108,y-3,y-1,110,115,y-3,y-1,0);
 			color(7);
 			if(confirm==0) return;
 			else {

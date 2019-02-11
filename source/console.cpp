@@ -38,6 +38,18 @@ void check_res(bool print){
 }
 
 int button_setting(int buttonNum, ...){
+//	hardcode
+	bool sound=1;
+	if(buttonNum==3564){
+		buttonNum=3;
+		sound=0;
+	}
+	else if(buttonNum==2541){
+		buttonNum=2;
+		sound=0;
+	}
+//	hardcode stops here
+
 	va_list vl;
 
 	while(true){
@@ -50,17 +62,15 @@ int button_setting(int buttonNum, ...){
 			curROW=y/win_heightpx*win_height;
 
 			va_start(vl,buttonNum);
-			bool hardcode=false;
 
 			for(int i=0;i<buttonNum;i++){
 				int left=va_arg(vl,int);
-				if(left==103) hardcode=true;
 				int right=va_arg(vl,int);
 				int top=va_arg(vl,int);
 				int bottom=va_arg(vl,int);
 
 				if(curCOL>=left&&curCOL<=right&&curROW>=top&&curROW<=bottom){
-					if(!hardcode) PlaySound("sound/select_coin.wav", NULL, SND_SYNC | SND_NODEFAULT);
+					if(sound) PlaySound("sound/select_coin.wav", NULL, SND_SYNC | SND_NODEFAULT);
 //					Sleep(500);
 					return i;
 				}

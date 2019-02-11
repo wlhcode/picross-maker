@@ -15,6 +15,7 @@ Duthomhas - code snippets (fetch cursor position)
 
 Microsoft Developer Network & Community - information (Windows header files & functions)
 Windows Seven Forums Community - information (Windows header files & functions)
+What The Tech Community - information (Windows console structure)
 
 
 ==General Programming==

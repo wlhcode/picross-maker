@@ -1,6 +1,6 @@
 string library[100];
 int songNum;
-int crtMusic=5;
+int crtMusic;
 
 void MUSIC_easyselecting(int, int, int);
 
@@ -23,10 +23,15 @@ void music_list(){
 	}
 	
 	songdata.close();
+	crtMusic=6;
 	
 	for(int i=0;i<songNum;i++){
 		color(7);
-		cout<<endl<<endl; y+=2;
+		if(i!=0){
+			cout<<endl;
+			y++;
+		}
+		cout<<endl<<endl; y++;
 		if(i==crtMusic) color(62);
 		else color(27);
 		
@@ -53,21 +58,24 @@ void music_list(){
 		space(80);
 	}
 	
+	gotoxy(110,48);
+	color(139);
+	cout<<" BACK ";
+	
 	color(7);
 //	show_point();
 	
 	while(true){
 		int oldMusic=crtMusic;
-		crtMusic=button_setting(6,20,99,4,7,20,99,10,13,20,99,16,19,20,99,22,25,20,99,28,31,20,99,34,37);
+		crtMusic=button_setting(9,20,99,3,6,20,99,9,12,20,99,15,18,20,99,21,24,20,99,27,30,20,99,33,36,20,99,39,42,20,99,45,48,110,115,48,48);
+		if(crtMusic==8) return;
 		MUSIC_easyselecting(oldMusic,crtMusic,27);
 	}
-	
-	cin.get();
 }
 
 void MUSIC_easyselecting(int original, int change, int ignore=27){
 	color(ignore);
-	int recY=6*original+4;
+	int recY=6*original+3;
 	
 	gotoxy(20,recY);
 	space(80);

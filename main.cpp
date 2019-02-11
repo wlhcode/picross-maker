@@ -11,6 +11,9 @@
 string s;
 
 int main(){
+//	set window title
+	system("TITLE Picross Maker");
+	
 //	get screen data
 	check_res(0);
 	Sleep(100);
@@ -53,7 +56,7 @@ int main(){
 	if(mode==0) select_lvl();
 	else if(mode==1) make_menu();
 	else if(mode==2) ;
-	else if(mode==3) about_1st();
+	else if(mode==3) abtscr();
 	else if(mode==4) music_list();
 	else if(mode==5) staff_roll();
 	else if(mode==6) return 0;

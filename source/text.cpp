@@ -18,19 +18,38 @@ void right(string s){
 	cout<<s<<endl;
 }
 
-void displaytxt(string filename, int colorNum, char alignment,int wait=0){
+void displaytxt(string filename, int colorNum, char alignment,int wait=0,int spaceNum=0){
 	string temp;
 	ifstream file(filename);
 	color(colorNum);
 	while(getline(file,temp)){
 		if(alignment=='r') right(temp);
 		else if(alignment=='c') center(temp);
-		else cout<<temp<<endl;
+		else{
+			space(spaceNum);
+			cout<<temp<<endl;
+		}
 		Sleep(wait);
 	}
 	temp.clear();
 	file.close();
 	color(7);
+}
+
+void displaypicross(string filename){
+	string temp;
+	ifstream file(filename);
+	color(7);
+	while(getline(file,temp)){
+		space((win_width-temp.length())/2);
+		for(int i=0;i<temp.length();i++){
+			if(temp.at(i)=='#') color(255);
+			else color(7);
+			cout<<temp.at(i);
+		}
+		color(7);
+		cout<<endl;
+	}
 }
 
 void displaytxt_colors(string charFilename, string colorFilename){ // slower! only use if needed
