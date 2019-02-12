@@ -14,7 +14,7 @@ This is from the Wikipedia article on "Nonogram". Visit [Nonogram - Wikipedia](h
 ### A. What is "PICROSS"?
 Picross are picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. In this puzzle type, the numbers measure how many unbroken lines of filled-in squares there are in any given row or column. For example, a clue of "4 8 3" would mean there are sets of four, eight, and three filled squares, in that order, with at least one blank square between successive groups.
 
-![example of picross](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nonogram_wiki.svg/320px-Nonogram_wiki.svg.png)
+![example of picross](https://raw.githubusercontent.com/wlhcode/picross-maker/master/scrshot/picrosssample.png)
 
 ### B. How to solve picross (correctly)?
 To solve a puzzle, one needs to determine which cells will be boxes and which will be empty. Solvers often use a  cross to mark cells they are certain are spaces. Cells that can be determined by logic should be filled. If guessing is used, a single error can spread over the entire field and completely ruin the solution. The hidden picture plays  little or no part in the solving process, as it may mislead. The picture may help find and eliminate an error.
