@@ -45,6 +45,14 @@ int main(){
     else{
     	lvlC>>makeCNT;
 		lvlC.close();
+		
+//		just don't mess up with the filesystem please.
+		if(makeCNT<=0){
+			makeCNT=0;
+			ofstream lvlC("user/levelCount.txt");
+			lvlC<<0<<endl;
+			lvlC.close();
+		}
 	}
 
 //	button
@@ -55,7 +63,7 @@ int main(){
 
 	if(mode==0) select_lvl();
 	else if(mode==1) make_menu();
-	else if(mode==2) ;
+	else if(mode==2) editmenu();
 	else if(mode==3) abtscr();
 	else if(mode==4) music_list();
 	else if(mode==5) staff_roll();

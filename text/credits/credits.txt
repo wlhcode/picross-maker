@@ -15,7 +15,7 @@ Duthomhas - code snippets (fetch cursor position)
 
 Microsoft Developer Network & Community - information (Windows header files & functions)
 Windows Seven Forums Community - information (Windows header files & functions)
-What The Tech Community - information (Windows console structure)
+What The Tech Community - information (Windows console title)
 
 
 ==General Programming==
@@ -44,12 +44,14 @@ NINTENDO - ideas and inspirations (Super Mario series, Legend of Zelda series, e
 NINTENDO - music composer (most games)
 Tempus, Newer Team - music composer (Newer Super Mario Bros. Wii)
 NinSheetMusic Community - music arrangement
+Windows: Bill Brown & Tom Ozanich - sound effect
 
 GASHISOFT - GXSCC software (MIDI files to 8-bit WAV)
 
 
 ==Misc.==
 Dev-C++ Developers - integrated development environment
+Angus Johnson - Resource Hacker (EXE console icon)
 
 
 ... and YOU for playing this game!

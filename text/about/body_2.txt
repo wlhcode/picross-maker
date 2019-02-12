@@ -1,0 +1,48 @@
+D. Play Mode
+
+(1) Built-in Puzzles
+There are 20 built-in puzzles waiting for you to be solved! These puzzles span from 5x5 to 20x20, levels sorted by
+difficulty, from the easiest to the hardest.
+
+(2) Self-created Puzzles
+You may change the game mode from "Built-in Puzzles" to "Self-created Puzzles" to try out your creations! This is
+the main feature of PICROSS MAKER.
+
+
+E. Make Mode
+
+Click the MAKE button in the main menu and you will be greeted by a "Puzzle Size Select" screen. Select your size
+there and proceed to draw your art in the canvas using the colors provided. Please be noted that for sizes bigger
+than 10x10, only 5 sets of unbroken lines of filled-in squares each row and each column is allowed due to limited
+screen size. Save your masterpiece and give it a name. You can now play it in "Play Mode: Self-Created Puzzles"!
+
+
+F. Edit Mode
+
+What if you made a mistake when you create your puzzle then saved it? Good news! You can edit your previously 
+created puzzles with the "Edit Mode". The interface is almost the same as the "Make Mode".
+
+
+G. About Mode
+
+This is what you are reading right now. You can learn about PICROSS the game and this programme itself in 5 minutes.
+Nothing much to talk about, really. Just an ordinary help and "want-to-know-more" page.
+
+
+H. Music Mode
+
+Think the music in the game is awesome? No? C'mon, you do! Then check out this "Music Mode". You can "listen to your
+heart's content", and learn the source of each piece of music! There's also a bonus piece of music that is exclusive
+to this mode!
+
+
+I. Credits
+
+Yeah, I know. It's the usual moan I'm getting. But as a developer of this game, I would really appreciate it if you
+take a look and learn more about the game.
+
+
+J. Thank you!
+
+It took me about two weeks or so to finish the development of this game! I hope you will find this game enjoyable.
+Once again, thank you for your support! :)

@@ -95,7 +95,10 @@ void create_interface(int size){
 			
 			int confirm=button_setting(2541,103,108,y-3,y-1,110,115,y-3,y-1,0);
 			color(7);
-			if(confirm==0) return;
+			if(confirm==0){
+				PlaySound("sound/select_coin.wav", NULL, SND_SYNC | SND_NODEFAULT);
+				return;
+			}
 			else {
 				for(int i=index;i<y;i++){
 					gotoxy(103,i);
