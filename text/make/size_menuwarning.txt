@@ -1,1 +1,0 @@
-REMINDER: For boards bigger than 10x10, only 5 sets of broken squares each row/column can be handled.
