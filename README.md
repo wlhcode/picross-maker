@@ -1,5 +1,5 @@
 # Introduction
-For preview images and videos, please visit [this page](https://wlhcode.github.io/picross-maker/preview).
+For preview images and videos, please visit [this page](https://wlhcode.github.io/picross-maker/preview).  
 This is from the Wikipedia article on "Nonogram". Visit [Nonogram - Wikipedia](https://en.wikipedia.org/wiki/Nonogram) to learn more.
 
 ## A. What is "PICROSS"?
