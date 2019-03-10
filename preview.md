@@ -1,4 +1,6 @@
 # Preview
+For information regarding the gameplay of this game, please visit [this page](https://wlhcode.github.io/picross-maker).
+
 ## Trailer
 Not available (yet)
 
