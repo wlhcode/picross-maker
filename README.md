@@ -1,3 +1,11 @@
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2818665277720670",
+    enable_page_level_ads: true
+  });
+</script>
+
 # Introduction
 For preview images and videos, please visit [this page](https://wlhcode.github.io/picross-maker/preview).  
 This is from the Wikipedia article on "Nonogram". Visit [Nonogram - Wikipedia](https://en.wikipedia.org/wiki/Nonogram) to learn more.
